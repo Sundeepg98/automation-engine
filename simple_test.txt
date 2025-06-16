@@ -1,0 +1,13 @@
+# COPY AND PASTE THIS INTO COLAB:
+
+# Cell 1 - Click the play button or press Shift+Enter
+print("Hello! If you see this, cells are running!")
+
+# Cell 2 - Run this one too
+import datetime
+print(f"Current time: {datetime.datetime.now()}")
+print("✅ Cells are working!")
+
+# Cell 3 - Test VS Code install
+!echo "Testing command execution..."
+!python3 --version

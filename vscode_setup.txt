@@ -1,0 +1,13 @@
+
+# Copy this into a new Colab notebook!
+
+# Cell 1: Install VS Code
+!apt update && apt install -y nodejs npm
+!npm install -g code-server
+
+# Cell 2: Start VS Code
+!code-server --port 8080 --auth none &
+
+# Cell 3: Display VS Code
+from google.colab import output
+output.serve_kernel_port_as_iframe(8080, height=600)
