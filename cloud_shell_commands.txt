@@ -1,0 +1,20 @@
+# Cloud Shell Setup Commands
+
+# 1. Clone your repo
+git clone https://github.com/Sundeepg98/automation-engine.git
+cd automation-engine
+
+# 2. Set your project
+gcloud config set project automation-engine-463103
+
+# 3. Create credentials directory
+mkdir -p credentials
+
+# 4. Install Python dependencies
+pip3 install google-api-python-client google-auth
+
+# 5. Test setup
+python3 test_setup.py
+
+# 6. Open VS Code
+# Click "Open Editor" button in Cloud Shell toolbar
